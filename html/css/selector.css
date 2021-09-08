@@ -1,0 +1,48 @@
+a{
+    text-decoration: none;
+}
+.center
+{
+    
+}
+.selector_m
+{
+    margin: 0px auto 0px auto;
+    box-sizing: border-box;
+    display: flex;
+    height: 600px;
+	max-width:1200px;
+}
+.selector{
+	display: flex;
+    text-align: center;
+    width: 100%;
+}
+.selector_simple{
+	background-color: #58ACFA;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+}
+.selector_auto {
+	background-color: #58FA82;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+}
+
+
+.width_line {
+    background: black;
+    margin: 0 22px;
+    position: relative;
+    width: 2px;
+}

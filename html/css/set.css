@@ -1,0 +1,100 @@
+/*폰트*/
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+/*세로선*/
+.verticalline {
+	height: 500px;
+	margin-top: 200px;
+	border: 2px solid skyblue;
+	float: left;
+}
+
+/*요소 파트*/
+.object {
+	float: left;
+	width: 550px;
+	height: 100vh;
+}
+.obj_title {
+	width: 350px;
+	height: 150px;
+	margin: 0px 100px 0px 100px;
+}
+.obj_text {
+	font-size: 40pt;
+	padding: 55px 100px 10px 130px;
+	font-family: 'Pretendard-Regular';
+}
+.obj_cont {
+	width: 350px;
+	height: 700px;
+	margin: 0px 100px 0px 100px;
+}
+.obj_list {
+	width: 350px;
+	height: 500px;
+	border: 1px solid black;
+}
+.obj_plus {
+	width: 350px;
+	height: 100px;
+	background-color: rgba(200, 200, 200, 0.5);
+	margin-top: 30px;
+
+}
+
+/*상세 파트*/
+.detail {
+	float: left;
+	width: 670px;
+	height: 100vh;
+}
+.det_title {
+	width: 500px;
+	height: 150px;
+	margin: 0px 90px 0px 90px;
+}
+.det_text {
+	font-size: 40pt;
+	padding: 55px 100px 10px 200px;
+	font-family: 'Pretendard-Regular';
+}
+.det_cont {
+	width: 500px;
+	height: 700px;
+	margin: 0px 90px 0px 90px;
+	background-color: rgba(200, 200, 200, 0.2);
+}
+
+/*미리보기 파트*/
+.preview {
+	padding-top: 30px;
+	float: right;
+	width: 660px;
+	height: 100vh - 30px;
+}
+.pre_title {
+	width: 550px;
+	height: 60px;
+	margin: 0px 55px 0px 55px;
+}
+.pre_text {
+	font-size: 20pt;
+	padding: 15px 100px 10px 227px;
+	font-family: 'Pretendard-Regular';
+}
+.pre_cont {
+	width: 550px;
+	height: 775px;
+	margin: 0px 55px 0px 55px;
+	border: 2px solid black;
+}
+.pre_page {
+	width: 550px;
+	height: 60px;
+	margin: 0px 55px 0px 55px;
+}
